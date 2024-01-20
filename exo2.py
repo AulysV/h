@@ -15,6 +15,7 @@ def inverse(p, i, j):
         p[x][y] = not p[x][y]
 
 # Un jouli tableau qui a pris pas mal de temps à être réalisé (ne marche qu'avec une police à largeur fixe)
+# Merci à Gnome et au magnifique « ASCII draw » (https://github.com/Nokse22/ascii-draw)
 
 def affiche_p(p):
     t = len(p)
