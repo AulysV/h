@@ -1,4 +1,4 @@
-fzrom turtle import *
+from turtle import *
 
 forward(100)
 left(60)
